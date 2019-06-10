@@ -40,7 +40,7 @@ $(document).ready(function(){
     
     /* FUNCTIONS END */
     
-    // On scroll
+    // On scrol
     $( window ).scroll( function () {  
         animateChartWhenVisible( charts );
     } );
@@ -49,8 +49,6 @@ $(document).ready(function(){
     animateChartWhenVisible( charts );
     
 } );
-    
-    
     //Chargement des boutons en fonciton du scroll
     $( function () {
     
@@ -100,8 +98,7 @@ $(document).ready(function(){
     animateChartWhenVisible( charts );
     
 } );
-    
-    
+     
     
     // animation burger menu mobil version
 	$('#nav-mobil').click(function(){
@@ -143,7 +140,5 @@ $(document).ready(function(){
     
         $(this).attr('src', 'img/twitter.svg'); 
     });
-
-    
-    
+        
 });
